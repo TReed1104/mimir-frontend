@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '../components/Index.vue'
+import Home from '../components/Home.vue'
 import TimetableApp from '../components/timetable/TimetableApp.vue'
 import TimetablesList from '../components/management/TimetablesList.vue'
 import TimetableCreate from '../components/management/TimetableCreate.vue'
@@ -17,8 +17,8 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'Index',
-            component: Index
+            name: 'Home',
+            component: Home
         },
         {
             path: '/app/:timetable/:date?',
