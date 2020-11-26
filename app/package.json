@@ -1,11 +1,11 @@
 {
-    "name": "wepack-vue-template",
+    "name": "mimir-frontend",
     "version": "1.0.0",
-    "description": "A template for Webpack Vue projects",
+    "description": "Web App Frontend for the Mimir API",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TReed1104/webpack-vue-template.git"
+        "url": "git+https://github.com/TReed1104/mimir-frontend.git"
     },
     "author": {
         "name": "Tom Reed"
