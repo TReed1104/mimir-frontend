@@ -24,7 +24,7 @@
 
 <script>
     import axios from 'axios'
-    import { setInterval, clearInterval } from 'timers';
+    import { setInterval, clearInterval } from 'timers-browserify';
     export default {
         data() {
             return {
